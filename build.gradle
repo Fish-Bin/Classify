@@ -1,0 +1,37 @@
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        /*
+        * 1.如果module中加入了依赖，0.8.1编译不了，报 Failed to notify project evaluation listener.
+        * 但是0.9 能编译通过，但会报程序包不存在的警告，目前测试上传成功过，耗时 9m 38s
+        *
+        * 2.当module中没有加入依赖，且是 0.8.1 时能够上传项目
+        *
+        * 3.两种情况都是用了我的那个翻墙工具
+        * */
+        classpath 'com.novoda:bintray-release:0.9'    // novada plugin 快速配置工具
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        //个人maven库
+        maven { url 'https://dl.bintray.com/fish/hui' }
+    }
+
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
