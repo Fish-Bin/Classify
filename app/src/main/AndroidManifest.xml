@@ -29,6 +29,7 @@
         <activity android:name=".LightTextViewActivity"/>
 
         <activity android:name=".ClockTimeViewActivity"/>
+        <activity android:name=".SeekBarActivity"/>
     </application>
 
 </manifest>

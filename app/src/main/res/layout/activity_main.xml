@@ -52,4 +52,11 @@
         android:layout_height="40dp"
         android:text="ClockTimeView"
         android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:text="SeekBar"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

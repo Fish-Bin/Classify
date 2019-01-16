@@ -32,7 +32,7 @@ publish {
     userOrg = 'fish'                                   // bintray注册的用户名
     groupId = 'com.fish.bin'                           // 自定义
     artifactId = 'classifyview'                                // bintray创建的package
-    publishVersion = '1.0.0'                           // 版本号
+    publishVersion = '1.1.0'                           // 版本号
     desc = 'my own define view'                        // 描述
     website = 'https://github.com/Hui-er/Classify'     // 网址
     repoName = 'hui'                                   // 仓库名字
