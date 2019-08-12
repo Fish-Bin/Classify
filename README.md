@@ -28,3 +28,5 @@
    时间钟（ClockTimeView）  
    百分比选择（SeekBar）  
    柱状线性图（CarshView）  
+# 四.依赖方式  
+  
