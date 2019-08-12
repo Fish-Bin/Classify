@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: "kotlin-kapt"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.novoda.bintray-release'
 
 android {
@@ -26,19 +29,19 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
 publish {
     userOrg = 'fish'                                   // bintray注册的用户名
     groupId = 'com.fish.bin'                           // 自定义
-    artifactId = 'classifyview'                                // bintray创建的package
-    publishVersion = '1.1.0'                           // 版本号
+    artifactId = 'classifyview'                        // bintray创建的package
+    publishVersion = '1.2.0'                           // 版本号
     desc = 'my own define view'                        // 描述
-    website = 'https://github.com/Hui-er/Classify'     // 网址
+    website = 'https://github.com/Fish-Bin/Classify'   // 网址
     repoName = 'hui'                                   // 仓库名字
     licences = ['Apache-2.0']
 }
-
-// gradlew clean build bintrayUpload -PbintrayUser=fish -PbintrayKey=86dc41aa041a5a9e00295650f013910e343a88ae -PdryRun=false
-
-// compile 'com.fish.bin:classifyview:1.0.0'
+repositories {
+    mavenCentral()
+}

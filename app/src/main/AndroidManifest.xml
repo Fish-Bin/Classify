@@ -18,18 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArcViewActivity"/>
+        <activity android:name=".ArcViewActivity" />
 
-        <activity android:name=".TimeLineActivity"/>
+        <activity android:name=".TimeLineActivity" />
 
-        <activity android:name=".WaveViewActivity"/>
+        <activity android:name=".WaveViewActivity" />
 
-        <activity android:name=".BorderImageViewActivity"/>
+        <activity android:name=".BorderImageViewActivity" />
 
-        <activity android:name=".LightTextViewActivity"/>
+        <activity android:name=".LightTextViewActivity" />
 
-        <activity android:name=".ClockTimeViewActivity"/>
-        <activity android:name=".SeekBarActivity"/>
+        <activity android:name=".ClockTimeViewActivity" />
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".CrashViewActivity" />
     </application>
 
 </manifest>
