@@ -29,4 +29,12 @@
    百分比选择（SeekBar）  
    柱状线性图（CarshView）  
 # 四.依赖方式  
-  
+  ```
+  <dependency>
+  	<groupId>com.fish.bin</groupId>
+  	<artifactId>classifyview</artifactId>
+  	<version>1.2.0</version>
+  	<type>pom</type>
+  </dependency>
+  ```
+  详情见：https://bintray.com/beta/#/fish/hui/classifyview?tab=overview
