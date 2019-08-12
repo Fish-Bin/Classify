@@ -1,6 +1,6 @@
 # 一.配置方式
 ## 1.环境：studio版本3.4.1
-   Gradle plugin version: classpath 'com.android.tools.build:gradle:3.4.1'
+   Gradle plugin version: classpath 'com.android.tools.build:gradle:3.4.1'  
    Gradle Version: 5.1.1
 ## 2.project 下的 build.gradle 配置
    classpath 'com.novoda:bintray-release:0.9'    // novada plugin 快速配置工具
@@ -20,11 +20,11 @@
    加入CrashView
    
 # 三.功能说明  
-   弧形（ArcView） 
-   时间轴（TimeLine） 
-   波浪（WaveView）
-   图片加框（BorderImageView）
-   文字高亮（LightTextView）
-   时间钟（ClockTimeView）
-   百分比选择（SeekBar）
-   柱状线性图（CarshView）
+   弧形（ArcView)   
+   时间轴（TimeLine）   
+   波浪（WaveView）  
+   图片加框（BorderImageView）  
+   文字高亮（LightTextView）  
+   时间钟（ClockTimeView）  
+   百分比选择（SeekBar）  
+   柱状线性图（CarshView）  
