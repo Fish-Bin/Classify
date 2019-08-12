@@ -18,3 +18,13 @@
    将项目配置到Fish-Bin,并加入忽略文件
    添加kotlin支持
    加入CrashView
+   
+# 三.功能说明  
+   弧形（ArcView） 
+   时间轴（TimeLine） 
+   波浪（WaveView）
+   图片加框（BorderImageView）
+   文字高亮（LightTextView）
+   时间钟（ClockTimeView）
+   百分比选择（SeekBar）
+   柱状线性图（CarshView）
